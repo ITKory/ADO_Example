@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ADO_Example.Lib\ADO_Example.Lib.csproj" />
+    <ProjectReference Include="..\ADO_Example.Model\ADO_Example.Model.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_Example.Lib", "ADO_Example.Lib\ADO_Example.Lib.csproj", "{B79A3B57-121E-48B6-A33B-B9DE6E3039DD}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO_Example.Lib", "ADO_Example.Lib\ADO_Example.Lib.csproj", "{B79A3B57-121E-48B6-A33B-B9DE6E3039DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ADO_Example.Model", "ADO_Example.Model\ADO_Example.Model.csproj", "{949A41EB-82E5-4E57-8D67-306D121B51D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ADO_Example.Model", "ADO_Example.Model\ADO_Example.Model.csproj", "{949A41EB-82E5-4E57-8D67-306D121B51D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{92364539-E54E-4BE5-9948-FC6157DFB545}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{949A41EB-82E5-4E57-8D67-306D121B51D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{949A41EB-82E5-4E57-8D67-306D121B51D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{949A41EB-82E5-4E57-8D67-306D121B51D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92364539-E54E-4BE5-9948-FC6157DFB545}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92364539-E54E-4BE5-9948-FC6157DFB545}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92364539-E54E-4BE5-9948-FC6157DFB545}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92364539-E54E-4BE5-9948-FC6157DFB545}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7146279F-9248-4492-8652-78A1B7494ED3}
 	EndGlobalSection
 EndGlobal
