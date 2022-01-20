@@ -27,6 +27,9 @@ namespace Test
             var students = new StudentsDb<Student>(connection.ConnectionString());
             foreach (var stud in students.GetAllStudents())
                 Console.WriteLine($"{stud.Id}, {stud.PersonId}, {stud.GroupId}");
+
+
+ 
         }
    
     }

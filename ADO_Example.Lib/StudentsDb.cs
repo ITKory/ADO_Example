@@ -13,13 +13,23 @@ namespace ADO_Example.App
 
         public StudentsDb()
         {
-            var str = File.ReadAllText("connect_to_db.ini"); //TODO Сделать проверку файла
-            _db = new MySqlConnection(str);
-            _command = new MySqlCommand { Connection = _db };
+            if (File.Exists("connect_to_db.ini"))
+            {
+                var str = File.ReadAllText("connect_to_db.ini");
+                _db = new MySqlConnection(str);
+                _command = new MySqlCommand { Connection = _db };
+
+            }
+            else
+                throw new Exception("file don't exists");
+            
         }
 
         public StudentsDb(string connectionString)
         {
+          
+            if (connectionString == null)
+                throw new Exception("connectionString is null");
 
             _db = new MySqlConnection(connectionString);
             _command = new MySqlCommand { Connection = _db };
